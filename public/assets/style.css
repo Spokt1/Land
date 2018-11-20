@@ -1342,6 +1342,7 @@ span.clos-bdrr{
 	font-size: 15px;
 	overflow: hidden;
 	text-transform: uppercase;
+	color: #000000
 }
 .news-info {
 	margin-bottom: 10px;
@@ -1503,7 +1504,7 @@ fieldset {
 }
 #contact button[type="submit"] {
 	cursor: pointer;
-	width: 25%;
+	width: 50%;
 	border: none;
 	background: #D24D57;
 	color: #FFF;
@@ -1656,4 +1657,7 @@ ul.categories li:last-child, ul.categories-right li:last-child {
 	transition: .5s;
 	cursor: pointer;
 	color: #252525;
+}
+.text {
+	 text-align:  center;
 }

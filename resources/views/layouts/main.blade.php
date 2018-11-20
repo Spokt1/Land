@@ -46,7 +46,7 @@
 		<!-- =========================================
         Script
         ========================================== -->
-        <script src=" {{asset('assets/js/vendor/modernizr-2.8.3.min.js')}}"></script>
+        <script type="text/javascript" src=" {{asset('assets/js/vendor/modernizr-2.8.3.min.js')}}"></script>
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -62,7 +62,9 @@
 		
         Script Section
         ========================================== -->
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBFMKgr65qQh2z1ZZeb4CNk6a_9K5qPmmQ"</script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="{{asset('assets/js/gmap.js')}}"></script>
         <script>window.jQuery || document.write('<script src="{{asset('assets/js/vendor/jquery-1.11.3.min.js')}}"><\/script>')</script>
 		<script type="text/javascript" src="{{asset('assets/js/jquery.animateNumber.min.js')}}"></script>
 		<script type="text/javascript" src="{{asset('assets/js/jquery.appear.js')}}"></script>
@@ -70,7 +72,6 @@
 		<script type="text/javascript" src="{{asset('assets/js/owl.carousel.min.js')}}"></script>
 		<script type="text/javascript" src="{{asset('assets/js/jquery.mixitup.min.js')}}"></script>
 		<script type="text/javascript" src="{{asset('assets/js/vendor/bootstrap.min.js')}}"></script>
-		<script type="text/javascript" src="{{asset('assets/js/gmap.js')}}"></script>
         <script src="{{asset('assets/js/plugins.js')}}"></script>
         <script src="{{asset('assets/js/main.js')}}"></script>
     </body>

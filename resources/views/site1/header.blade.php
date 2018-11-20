@@ -62,16 +62,6 @@
 								</ul>
 							</nav>
 							@endif
-							<!-- /nav -->
-							<!-- Menue-Search-bar -->
-							<div id="sb-search" class="sb-search " >
-							    <form>
-							        <input class="sb-search-input " onkeyup="buttonUp();" placeholder=	"Enter your search term..." onblur="monkey();" type="search" value="" name="search" id="search">
-							        <input class="sb-search-submit" type="submit"  value="">
-							        <span class="sb-icon-search"><i class="fa fa-search"></i></span>
-							    </form>
-							</div>
-							<!-- /Menue-search-bar -->
 						</div>
 					</div>
 				</div>

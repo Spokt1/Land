@@ -124,11 +124,6 @@
 				scrollTop: $('#team').offset().top - 70
 			}, 1500);
 		});
-		//scrollTop===================================
-		$("body, html").on("click", ".scroll-top-icon", function (e) {
-			e.preventDefault();
-			$('html, body').animate({scrollTop: 0}, 800);
-		});
 		// show language dropdowns=====================
 		$('#lang-switcher').find('.ui-dropdown-list-trigger').each(function() {
 			$(this).click(function(){

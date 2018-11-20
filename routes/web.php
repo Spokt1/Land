@@ -41,7 +41,7 @@ Route::group(['prefix'=>'admin','middleware'=>'auth'],function()
         Route::post('/add', ['uses' => 'admin\PortfolioController@store', 'as' => 'portfoliosStore']);
         Route::get('/edit/{service}', ['uses' => 'admin\PortfolioController@edit', 'as' => 'portfoliosEdit']);
         Route::patch('/edit/{service}', ['uses' => 'admin\PortfolioController@update', 'as' => 'portfoliosUpdate']);
-        Route::delete('/edit/{service}', ['uses' => 'admin\PortfolioController@delete', 'as' => 'portfoliosDestroy']);
+        Route::delete('/edit/{service}', ['uses' => 'admin\PortfolioController@destroy', 'as' => 'portfoliosDestroy']);
 		});
 		Route::group(['prefix'=>'services'],function()
 		{

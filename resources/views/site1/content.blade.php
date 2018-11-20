@@ -111,11 +111,14 @@
 								<span></span>
 							</div>
 							<div class="service-para">
-								<p>тексссс</p>
-								<p>еще текссссссссссссссссссссссссст</p>
+								<p>Мы развиваемся в области программирования </p>
+								<p>да да впереди нас ждет </p>
 							</div>
 							<div class="hr-border">
 								<span></span>
+							</div>
+							<div class="service-btn">
+								<a href="#team"><i class="pe-7s-users"></i>Посмотрите на нашу команду</a>
 							</div>
 						</div>
 					</div>
@@ -134,6 +137,8 @@
 						</div>
 					</div>
 					@endforeach
+				</div>
+			</div>
         </section>
 		<!-- =========================================
         Latest Project Section
@@ -285,7 +290,7 @@
 			<div class="map-icon">
 				<i class="fa fa-map-marker"></i>
 			</div>
-			<div id="map" class="map" data-lat="43.6532" data-lng="-79.3832"></div>
+			<div id="map" class="map"></div>
 			<div class="contact-form wow zoomIn" data-wow-duration="700ms" data-wow-delay="200ms">
 				<form id="contact" action="{{route ('home')}}" method="post">
 					<div class="contact-address-info">
@@ -329,15 +334,15 @@
 						<div class="quick-link">
 							<h4>линки</h4>
 							<ul class="categories">
-								<li><a href="#home">Home</a></li>
-								<li><a href="#services">Service</a></li>
-								<li><a href="#portfolio">Portfolio</a></li>
+								<li><a href="#home">Главная</a></li>
+								<li><a href="#services">Сервис</a></li>
+								<li><a href="#portfolio">Проекты</a></li>
 							</ul>
 							<ul class="categories-right">
-								<li><a href="#about-us">About us</a></li>
-								<li><a href="#team">Team</a></li>
-								<li><a href="#blog">Blog</a></li>
-								<li><a href="#contact">Contact</a></li>
+								<li><a href="#about-us">О нас</a></li>
+								<li><a href="#team">Комнда</a></li>
+								<li><a href="#blog">Новости</a></li>
+								<li><a href="#contact">Контакты</a></li>
 							</ul>
 						</div>
 					</div>
@@ -355,9 +360,6 @@
         Footer Section
         ========================================== -->
 		<footer class="footer-area">
-			<div class="scroll-top-icon wow zoomIn" data-wow-duration="700ms" data-wow-delay="200ms">
-				<i class="fa fa-chevron-up"></i>
-			</div>
 			<div class="container footer">
 				<div class="row">
 					<div class="col-md-6 col-sm-6 col-xs-12">
